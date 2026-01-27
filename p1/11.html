@@ -1,143 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fork & Stix Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fork & Stix Menu</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.5;
+            margin: 20px;
+            text-align: left;
+        }
 
-  <style>
-    /* General Body Styling */
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      margin: 20px;
-      background-color: #fff;
-    }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 5px;   /* 👈 reduce space BELOW title */
+        }
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            font-size: 28px;
+            margin-top: 5px;     /* 👈 reduce space ABOVE location */
+            margin-bottom: 10px;
+        }
+        p:hover {
+            background-color: #fff2a8;
+        }
+        p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0.5px;
+            margin: 10px 0;
+        }
+        .location {
+            font-size: 20px;     
+            font-family: 'Lato', sans-serif;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
 
-    h2, h3 {
-      margin-top: 1.5rem;
-      margin-bottom: 1rem;
-    }
+        .spicy {
+            color: red;
+        }
+        .dots {
+            border: none;
+            border-top: 2px dotted #000;
+            margin: 20px 0;
+        }
 
-    p {
-      margin: 0.3rem 0 1rem 0;
-    }
-
-    em {
-      font-style: italic;
-    }
-
-    strong {
-      font-weight: bold;
-    }
-
-    hr {
-      border: 0;
-      height: 1px;
-      background-color: #ccc;
-      margin: 2rem 0;
-    }
-
-    /* Links */
-    a {
-      text-decoration: none;
-      color: black;
-    }
-
-    /* Menu Table Option Example */
-    table {
-      border-collapse: collapse;
-      margin-bottom: 1rem;
-    }
-
-    table td {
-      padding: 0.25rem 0.5rem;
-    }
-
-    /* Spicy class */
-    .spicy {
-      color: red;
-      font-weight: bold;
-    }
-
-    /* Disclaimer */
-    #disclaimer {
-      font-size: 0.9rem;
-      color: #555;
-    }
-  </style>
+    </style>
 </head>
 <body>
 
-  <h1>FORK & STIX</h1>
-  <h2><strong>549 Rosedale Ave, Saint Louis</strong></h2>
-  <hr>
+<h1 id="fork-stix">FORK &amp; STIX</h1>
+<h2 class ="location">
+  <a href="https://www.google.com/maps/place/549+Rosedale+Ave,+St.+Louis,+MO+63112/@38.6547036,-90.2988524,811m/data=!3m2!1e3!4b1!4m6!3m5!1s0x87df4aab0db0d561:0xafb84a3d54bb45a6!8m2!3d38.6547036!4d-90.2962775!16s%2Fg%2F11c1ypv3pq?entry=ttu">
+    549 ROSEDALE AVE
+  </a>
+<hr class="dots">
+<h2><em>SOUPS &amp; SALADS</em></h2>
 
-  <!-- Soups & Salads -->
-  <h2><em>SOUPS & SALADS</em></h2>
+<p><strong>TUM YUM</strong><br>Chicken $4 · Shrimp $5.50<br>Thai spicy &amp; sour soup with lemongrass, galangal, tomatoes, mushrooms, tamarind</p>
+<p><strong>SOM TUM</strong> — $9<br><em>add salted crab + $1.50</em><br>Spicy green papaya salad with tomatoes, green beans, fish sauce, garlic, peanuts</p>
+<p><strong>NAM KHAO TOD</strong> — $10<br>Crispy rice salad with sour pork sausage, ginger, peanuts, red onions, cilantro, green onion, toasted coconut, dry chili, fish sauce <span class="spicy"><em>SPICY!</em></span>
+</p>
+<p><strong>LAAB GAI</strong> — $10<br>Crispy rice salad with sour pork sausage, ginger, peanuts, red onions, cilantro, green onion, toasted coconut, dry chili, fish sauce <span class="spicy"><em>SPICY!</em></span>
+<hr class="dots">
 
-  <p><strong>TUM YUM</strong><br>
-  Chicken $4 · Shrimp $5.50<br>
-  Thai spicy & sour soup with lemongrass, galangal, tomatoes, mushrooms, tamarind
-  </p>
+<h2><em>Small Plates</em></h2>
 
-  <p><strong>SOM TUM</strong> — $9<br>
-  <em>add salted crab + $1.50</em><br>
-  Spicy green papaya salad with tomatoes, green beans, fish sauce, garlic, peanuts
-  </p>
+<p><strong>SAI QUA</strong> - $9<br><em>served with sticky rice</em><br>Grilled Chiang Mai pork sausage with Thai herbs</p>
+<p><strong>NAAM PRIK NUUM</strong> - $9<br><em>served with vegtables</em><br>Northern Thai classic hot sauce, roasted chili, shallots garlic, cilantro</p>
+<p><strong>CRISPY SPRING ROLLS</strong> - $3.50<br><em>Served with Thai sweet chili sauce</em><br>Cabbage, carrots, glass noodles wrapped in spring roll wrapper and deep fried</p>
+<p><strong>THAI STIX</strong> - $5<br><em>Served with Thai sweet chili sauce</em><br>Cream cheese, crab mixed, wrapped in wonton wrapper and deep fried</p>
+<p><strong>HOY JAW</strong> - $8<br><em>Served with Thai sweet chili sauce</em><br>Deep fried dumplings, shrimp, crab mixed, minced pork wrapped in tofu skin</p>
+<p><strong>CHICKEN SATAY</strong> | $8<br><em>Served with peanut sauce</em><br>Grilled chicken skewers marinated in coconut milk, curry powder, turmeric</p>
+<p><strong>MUU PING</strong> | $8.95<br><em>Served with sticky rice</em><br>Grilled pork skewers marinated with palm sugar, garlic, coriander seeds, glazed with coconut milk reduction</p>
 
-  <p><strong>NAM KHAO TOD</strong> — $10<br>
-  Crispy rice salad with sour pork sausage, ginger, peanuts, red onions, cilantro, green onion, toasted coconut, dry chili, fish sauce <strong class="spicy">SPICY!</strong>
-  </p>
+<hr class="dots">
+<h2><em>Entrees</em></h2>
 
-  <p><strong>LAAB GAI</strong> — $10<br>
-  Crispy rice salad with sour pork sausage, ginger, peanuts, red onions, cilantro, green onion, toasted coconut, dry chili, fish sauce <strong class="spicy">SPICY!</strong>
-  </p>
+<p><strong>KHAO SOI</strong><br>Tofu $15.95 | Chicken $16.95 | Beef $18<br>Northern Thai egg noodle curry soup, pickled mustard greens, red onion, crispy egg noodles</p>
+<p><strong>PAD KA PRAO</strong> <em>(gluten free)</em><br>Tofu $15.95 | Chicken or pork $15.95 | Shrimp $18.95 | Beef $18<br><em>add sunny side-up egg + $2</em><br>Basil, Thai chili, green beans, onions, bell peppers, gluten free soy sauce<br>Served with Thai Jasmine rice</p>
 
-  <hr>
+<hr class="dots">
 
-  <!-- Small Plates -->
-  <h2><em>SMALL PLATES</em></h2>
+<h2><em>Rice</em></h2>
+    <p>THAI JASMINE RICE - $3.5</p>
+    <p>STICKY RICE - $3.5</p>
 
-  <p><strong>SAI OUA</strong> — $9<br>
-  <em>served with sticky rice</em><br>
-  Grilled Chiang Mai pork sausage with Thai herbs
-  </p>
+<hr class="dots">
 
-  <p><strong>NAAM PRIK NUUM</strong> — $4<br>
-  <em>served with vegetables</em><br>
-  Northern Thai classic hot sauce with roasted chili, shallots, garlic, cilantro
-  </p>
-
-  <p><strong>CRISPY SPRING ROLLS</strong> — $3.50<br>
-  <em>Served with Thai sweet chili sauce</em><br>
-  Cabbage, carrots, glass noodles wrapped in spring roll wrapper and deep fried
-  </p>
-
-  <p><strong>THAI STIX</strong> — $5<br>
-  <em>Served with Thai sweet chili sauce</em><br>
-  Cream cheese and crab mix wrapped in wonton wrapper and deep fried
-  </p>
-
-  <p><strong>HOY JAW</strong> — $8<br>
-  <em>Served with Thai sweet chili sauce</em><br>
-  Deep fried dumplings with shrimp, crab mix, minced pork wrapped in tofu skin
-  </p>
-
-  <p><strong>CHICKEN SATAY</strong> — $8<br>
-  <em>Served with peanut sauce</em><br>
-  Grilled chicken skewers marinated in coconut milk, curry powder, turmeric
-  </p>
-
-  <p><strong>MUU PING</strong> — $8.95<br>
-  <em>Served with sticky rice</em><br>
-  Grilled pork skewers marinated with palm sugar, garlic, coriander seeds, glazed with coconut milk reduction
-  </p>
-
-  <hr>
+<h2><em>Disclaimer</em></h2>
+<p>We use peanuts, coconut milk, eggs, wheat, shellfish, fish, meat, and soy products in our preparations. If you have allergies please consult your server. Please no substitutions.
+</p>
+</body>
+</html>
