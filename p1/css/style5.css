@@ -1,0 +1,42 @@
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #9dbeb7;
+  background-color:white; 
+  margin: 20px;
+}
+/*color: #e73213;*/
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #1d3c45;
+    font-family: 'Lora', serif;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #e73213;
+    font-family: 'Lora', serif;
+}
+
+.disclaimer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* two equal columns */
+    column-gap: 30px
+}
+
+.section4 {
+    text-align: center;
+}
+.section3 {
+    text-align: left;
+}
+
+p:hover {
+    background-color: rgb(255, 234, 238);
+}
