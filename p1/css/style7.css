@@ -1,0 +1,66 @@
+body {
+font-family: "New-Order", sans-serif;
+font-weight: 100;
+font-style: normal;
+padding: 1em;
+margin: 1em;
+}
+
+h1 {
+font-family: "ogg", sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 6em;
+color: #e43d21;
+margin-bottom: 0.5em;
+}
+
+summary {
+    font-family: "ogg", sans-serif;
+    color: #e43d21;
+    font-size: 2em;
+}
+
+#disclaimer {
+font-family: "ogg", sans-serif;
+text-align: center;
+}
+
+h2 {
+font-family: "ogg", sans-serif;
+color: #e43d21;
+font-size: 2em;
+}
+
+h3 {
+font-family: "ogg", sans-serif; 
+}
+
+p:hover {
+    background-color: rgb(255, 234, 238);
+}
+
+#stars{
+    color: #e43d21;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* #location a{
+    color: black;
+    text-decoration: none;
+    margin: 0.5em;
+} */
+
+#location {
+    text-align: center;
+    margin-top: 0.em;   /* adjust this */
+    font-size: 1.5em;
+    border: 2px solid #e43d21;
+}
+
+#location a {
+    color: black;
+    text-decoration: none;
+}
