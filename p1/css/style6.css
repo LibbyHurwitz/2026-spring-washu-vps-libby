@@ -1,0 +1,70 @@
+img{
+display: block;
+margin: 0 auto;   
+width: 1000px;   
+height: auto;   
+}
+h1 {
+font-family: 'Trebuchet MS', Arial, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 6em;
+color: #e43d21;
+margin-bottom: 0.1em;
+margin-top:0.1em;
+}
+.info-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em;
+    margin-top:0.1em;
+}
+
+#location a {
+    color: black;
+    font-family: "New-Order", sans-serif;
+    text-decoration: none;
+    font-weight:100;
+    font-size: 20px;
+}
+#time{
+    color: black;
+    font-family: "New-Order", sans-serif;
+    text-decoration: none;
+    font-weight:100;
+    font-size: 20px;
+}
+summary {
+    font-family: "New-Order", sans-serif;
+    color: #e43d21;
+    text-align:center;
+    font-size: 2em;
+}
+.border{
+    border: 2px solid #e43d21;
+}
+body {
+font-family: "New-Order", sans-serif;
+font-weight: 100;
+font-style: normal;
+padding: 1em;
+margin: 1em;
+text-align: center;
+}
+.section {
+font-family: 'Trebuchet MS', Arial, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+font-size: 2em;
+color: #e43d21;
+}
+.stars {
+font-size: 2.5em;
+color: #e43d21;
+text-align: center;
+margin-top: 1em;
+margin-bottom: 0.5em;
+}
