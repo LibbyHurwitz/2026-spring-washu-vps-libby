@@ -47,7 +47,7 @@ font-size: 2em;
 img{
 display: block;
 margin: 0 auto;   
-width: 1000px;   
+width: auto;   
 height: auto;   
 }
 
@@ -55,7 +55,7 @@ height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1em;
+    margin: 5em;
     margin-top:0.1em;
     font-family:  "abril-titling", serif;
 }
