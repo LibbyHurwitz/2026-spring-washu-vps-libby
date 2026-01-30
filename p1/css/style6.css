@@ -24,14 +24,14 @@ margin-top:0.1em;
 
 #location a {
     color: black;
-    font-family: "New-Order", sans-serif;
+    font-family: "courier new", sans-serif;
     text-decoration: none;
     font-weight:100;
     font-size: 20px;
 }
 #time{
     color: black;
-    font-family: "New-Order", sans-serif;
+    font-family:"courier new", sans-serif;
     text-decoration: none;
     font-weight:100;
     font-size: 20px;
@@ -49,7 +49,7 @@ summary {
     margin: 2em;
 }
 body {
-font-family: "New-Order", sans-serif;
+font-family: "courier new", sans-serif;
 font-weight: 100;
 font-style: normal;
 padding: 1em;
