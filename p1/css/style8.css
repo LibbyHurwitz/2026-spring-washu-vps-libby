@@ -55,9 +55,10 @@ height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5em;
     margin-top:0.1em;
     font-family:  "abril-titling", serif;
+    padding: 10em; 
+    margin:-8.2em;
 }
 
 #location a {
