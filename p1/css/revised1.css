@@ -1,0 +1,102 @@
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 18px;
+  padding: 2em;
+  border: 2em;
+}
+p{
+    text-align: left;
+    padding: 2em;
+    border: 1px solid black;
+    color: #4D631A;
+}
+.section{
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+body {
+    font-family: "New-Order", sans-serif;
+    font-style: normal;
+    background-color: #fee279;
+    color: black;
+    font-size: 1em;
+}
+
+header {
+    position: fixed;
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 20em;
+    color: #4D631A;
+    border-bottom: 2px solid #4D631A;
+}
+
+/* #mission{
+    font-family: "New-Order", sans-serif;
+    font-weight: 10;
+    text-align: center;
+    text-align: center;
+    margin-top: 100px; /* adjust so it sits below the fixed header */
+
+#location a {
+    color: black;
+    font-family:  "New-Order", sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h1{
+font-family:"vandertak-capslock-top", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size:6em;
+text-align:center;
+}
+
+h2{
+font-family:"vandertak-capslock-top", sans-serif;
+font-weight: 200;
+font-style: normal;
+text-align:center;
+font-size: 3em;
+color: #4D631A;
+}
+
+#time{
+    color: black;
+    font-family:  "New-Order", sans-serif;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.last-item{
+    text-align: center
+}
+
+
+.center-item {
+  grid-column: 1 / -1;
+  justify-self: center;
+  max-width: 60%;
+}
+
+
+img {
+    display: block;
+    margin:0 auto;
+}
+.color{
+background-color: white;
+}
