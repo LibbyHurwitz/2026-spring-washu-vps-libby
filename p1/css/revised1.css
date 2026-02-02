@@ -36,7 +36,7 @@ header {
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    padding: 0 20em;
+    padding: 0 8em;
     color: #4D631A;
     border-bottom: 2px solid #4D631A;
 }
@@ -57,11 +57,10 @@ header {
 }
 
 h1{
-font-family: "zeplin-vf", sans-serif;
-font-variation-settings: "CONX" 1, "CONY" 1;
-font-weight: 700;
+font-family:"vandertak-capslock-top", sans-serif;
+font-weight: 400;
 font-style: normal;
-font-size:6em;
+font-size:4em;
 text-align:center;
 }
 
