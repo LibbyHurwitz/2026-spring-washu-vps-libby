@@ -57,7 +57,8 @@ header {
 }
 
 h1{
-font-family:"vandertak-capslock-top", sans-serif;
+font-family: "zeplin-vf", sans-serif;
+font-variation-settings: "CONX" 1, "CONY" 1;
 font-weight: 700;
 font-style: normal;
 font-size:6em;
