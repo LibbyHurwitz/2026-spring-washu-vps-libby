@@ -5,22 +5,22 @@ body {
   background-color: #F2EFE6;
   color: #2e2a27;
   font-size: 1.3em;
+  padding: 2em;
 }
 
 h1 {
-  font-family: "chorine-large", sans-serif; /* Make sure exact Adobe name */
+  font-family: "chorine-large", sans-serif; 
   font-size: 6em;
   text-align:center;
 }
 
 h2 {
-  font-family:"chorine-large", sans-serif; /* Make sure exact Adobe name */
+  font-family:"chorine-large", sans-serif; 
   text-align:center;
   font-size: 2.3em;
   font-size: 3em;
 }
 
-/* Menu Grid */
 .menu-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -38,7 +38,6 @@ p {
   border-radius: 15px;
 }
 
-/* Image overlap */
 .overlap1 {
   width: 600px;
   margin-top: -300px;
@@ -46,13 +45,14 @@ p {
   margin-left: 1000px;
 }
 
-/* Info row */
 .info-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "New-Order", sans-serif; /* exact Adobe name */
+  font-family: "New-Order", sans-serif; 
+  padding: 0 60px;
 }
+
 #location a {
     color: black;
     font-family:   "New-Order", sans-serif;
