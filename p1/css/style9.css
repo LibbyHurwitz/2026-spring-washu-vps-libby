@@ -105,7 +105,7 @@ img {
     display: block;
     margin:0 auto;
 }
-#disclaimer{
+.disclaimer{
     color: black;
     text-align: center;
 }

@@ -1,84 +1,60 @@
+body {
+  font-family: "New-Order", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: #F2EFE6;
+  color: #2e2a27;
+  font-size: 1.3em;
+}
+
+h1 {
+  font-family: "chorine-large", sans-serif; /* Make sure exact Adobe name */
+  font-size: 6em;
+  text-align:center;
+}
+
+h2 {
+  font-family:"chorine-large", sans-serif; /* Make sure exact Adobe name */
+  text-align:center;
+  font-size: 2.3em;
+  font-size: 3em;
+}
+
+/* Menu Grid */
 .menu-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
   row-gap: 18px;
   padding: 2em;
-  border: 2em;
-}
-p{
-    text-align: center;
-    padding: 2em;
-    border-radius:15px;
-}
-.section{
-    text-align: center;
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-body {
-    font-family: "courier new", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #387545;
-    color: #F2EFE6;
-    font-size: 1.3em;
-}
-h1{
-font-family: "abril-titling", serif;
-font-weight: 700;
-font-style: normal;
-font-size:6em;
-text-align:center;
-letter-spacing: -0.03em;
-transform: scaleY(1.3);
+  border-radius: 30px;
+  background-color: #524033;
+  color: #F2EFE6;
 }
 
-h2{
-font-family: "abril-titling", serif;
-font-weight: 700;
-font-style: normal;
-text-align:center;
-letter-spacing: -0.03em;
-font-size: 2.3em;
-transform: scaleY(1.3);
-}
-.last-item{
-    text-align: center
+p {
+  text-align: center;
+  padding: 2em;
+  border-radius: 15px;
 }
 
-.info-row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top:0.1em;
-    font-family:  "abril-titling", serif;
-    padding: 10em; 
-    margin:-8.2em;
-    transform: scaleY(1.3);
+/* Image overlap */
+.overlap1 {
+  width: 600px;
+  margin-top: -300px;
+  margin-right: 100px;
 }
 
+/* Info row */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "New-Order", sans-serif; /* exact Adobe name */
+}
 #location a {
-    color: #F2EFE6;
-    font-family:  "abril-titling", serif;
+    color: black;
+    font-family:   "New-Order", sans-serif;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
 }
-
-#mission{
-    font-family: "courier new", sans-serif;
-    font-weight: 10;
-    text-align: center;
-}
-img {
-    display: block;
-    margin:0 auto;
-}
-
-.overlap1 {
-  width: 400px;
-  margin-top: -300px; /* pulls image upward */
-margin-right:50px;
-}
-
