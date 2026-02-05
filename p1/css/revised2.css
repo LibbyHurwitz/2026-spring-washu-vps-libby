@@ -3,13 +3,18 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
   row-gap: 18px;
-  padding: 2em 10em;
-  border: 2em;
+
+  /* IMPORTANT: make grid centered */
+  max-width: 1100px;
+  margin: 0 auto;
+
+  /* reduce padding so it doesn’t push your “center” */
+  padding: 2em 2em;
 }
 p{
     text-align: left;
     padding: 2em;
-    border: 1px solid #f5f3ef;
+    border: 0.5px solid #f5f3ef;
     border-radius:8px;
     color: #f5f3ef;
 }
@@ -21,25 +26,42 @@ p{
 body {
     font-family: "New-Order", sans-serif;
     font-style: normal;
-    background-color: #285a33;
-    color: #f5f3ef;
+    font-weight: 40;
+    background-color: #194231;
+    color: #fbf3e5;
     font-size: 1em;
+}
+
+.center-content.image {
+  display: flex;               /* horizontal centering */
+  justify-content: center;     
+  width: 100%;                 /* full width of parent */
+  margin: 2em 0;
+  top: 20;               /* space above and below */
+  position: relative;         
+  z-index: 1;
+}
+
+.center-content.image img {
+  max-width: auto;              /* responsive */
+  height: auto;
+  display: block;
 }
 
 header {
     position: fixed;
-    background:#f5f3ef;
+    background:#fbf3e5;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 3;
+    z-index: 10;
     display:flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
     padding: 0 8em;
-    color: #285a33;
-    border-bottom: 2px solid #285a33;
+    color: #194231;
+    border-bottom: 2px solid#194231;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -65,7 +87,7 @@ font-weight: 200;
 font-style: normal;
 text-align:center;
 font-size: 3em;
-color:#f5f3ef;
+color:#fbf3e5;
 }
 
 #time{
@@ -87,13 +109,17 @@ color:#f5f3ef;
   max-width: 60%;
 }
 
-
-img {
-    display: block;
-    margin:0 auto;
-    justify-content: center;
-    border-radius: 50px;
-}
 .color{
-background-color: #285a33;
+background-color: none;
+}
+
+.image{
+  display: block;
+  width: 280px;
+  height: auto;
+  margin: 0 auto;
+
+  transform: translateY(-60px); /* half of header height */
+  position: relative;
+  z-index: 1;
 }
