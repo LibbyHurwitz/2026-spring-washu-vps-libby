@@ -40,8 +40,6 @@ body {
   top: 20;               /* space above and below */
   position: relative;         
   z-index: 1;
-  
-  
 }
 
 .center-content.image img {
@@ -49,7 +47,9 @@ body {
   height: auto;
   display: block;
 }
-
+img{
+  border-radius:15px;
+}
 header {
     position: fixed;
     background:#fbf3e5;
