@@ -66,6 +66,7 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
+
 #location a {
     color: black;
     font-family:  "New-Order", sans-serif;
@@ -80,6 +81,7 @@ font-weight: 400;
 font-style: normal;
 font-size:4em;
 text-align:center;
+color: #194231;
 }
 
 h2{
