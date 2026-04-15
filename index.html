@@ -42,16 +42,41 @@
         <li><a href="april15.html"> 4/15</a></li>
     </ul>
 </div>
+
+<script>
+const gradients = ["blue", "sage", "lavender"];
+
+// pick a random one
+const randomGradient = gradients[Math.floor(Math.random() * gradients.length)];
+
+// apply it to the body
+document.body.classList.add(randomGradient);
+</script>
+
 </body>
 </html>
 
 <style>
 body {
-  /* background: linear-gradient(120deg, white, lightblue); */
   font-family: 'Courier New', Courier, monospace;
   color: white;
-background: linear-gradient(135deg, #8aa6e3, #ffffff);
 }
+
+/* blue */
+body.blue {
+  background: linear-gradient(135deg, #8aa6e3, #ffffff);
+}
+
+/* sage */
+body.sage {
+  background: linear-gradient(135deg, #9caf88, #ffffff);
+}
+
+/* lavender */
+body.lavender {
+  background: linear-gradient(135deg, #c3b1e1, #ffffff);
+}
+
 h1{
 font-family: "abril-titling", serif;
 font-weight: 700;
